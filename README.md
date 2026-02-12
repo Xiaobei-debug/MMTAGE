@@ -45,7 +45,7 @@ All the data used in the paper were collected from public databases: 10X, Gene E
 Data Preparation:
 Prepare the train dataset in <BASE_FOLDER>/data/.
 
-Training MMTAGE with 10X dataset for example:
+Training MMTAGE with 10X dataset:
 ```
 python train_model.py --device 'cuda' --epochs 20 --batch_size 2 --lr 0.0001 --save_dir "./checkpoints/" --dataset "./data/10X_data.h5ad"
 ```
