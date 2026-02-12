@@ -1,5 +1,5 @@
 # MMTAGE
-MMTAGE is a gene-level multimodal learning framework for integrated scRNA-seq and scTCR-seq analysis, with GEX/TCR unimodal and fusion modules. It generates mmMean/mmCLS embeddings, excels in antigen specificity capture, gene expression retention and batch effect mitigation, and boosts downstream tasks like TCR-pMHC prediction, enabling robust T cell biology research.
+MMTAGE is a gene-level multimodal representation learning framework dedicated to the integrated analysis of single-cell RNA-seq (scRNA-seq) and T cell receptor-seq (scTCR-seq) data, featuring GEX unimodal, TCR unimodal and multimodal fusion modules to capture gene-TCR associations while preserving the inherent biological properties of each modality. It generates two tailored multimodal embeddings (mmMean and mmCLS): mmMean balances the capture of antigen specificity and gene expression functional signals, while mmCLS maximizes the retention of high-fidelity transcriptomic profiles, flexibly adapting to diverse downstream analytical needs.
 
 # Dependencies
 MMTAGE is writen in Python based on Pytorch. The required software dependencies are listed below:
