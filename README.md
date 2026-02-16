@@ -20,7 +20,7 @@ scanpy=1.9.8
 Setup conda environment:
 ```
 # Create environment
-conda create -n MMTAGE python=3.8 -y
+conda create -n MMTAGE python=3.10 -y
 conda activate MMTAGE
 
 # Instaill requirements
