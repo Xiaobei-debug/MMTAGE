@@ -6,7 +6,7 @@ MMTAGE is writen in Python based on Pytorch. The required software dependencies 
 ```
 torch=2.0.0
 cuda=11.8.0
-python=3.8
+python=3.10
 einops=0.8.1
 local_attention=1.10.0
 timm=1.0.24
