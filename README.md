@@ -12,7 +12,7 @@ local_attention=1.10.0
 timm=1.0.24
 iopath=0.1.10
 omegaconf=2.3.0
-transformer=4.46.3
+transformers=4.46.3
 scanpy=1.9.8
 ```
 
@@ -30,7 +30,7 @@ pip install local_attention==1.10.0
 pip install timm==1.0.24
 pip install iopath==0.1.10
 pip install omegaconf==2.3.0
-pip install transformer==4.46.3
+pip install transformers==4.46.3
 pip install scanpy==1.9.8
 
 # Clone MMTAGE
